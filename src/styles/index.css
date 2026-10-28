@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+a {
+  font: inherit;
+}
+
+@layer components {
+  .page-container {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+  }
+
+  .section-shell {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+    padding-block: 4.5rem;
+  }
+
+  .section-eyebrow {
+    margin: 0 0 0.75rem;
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .surface-card {
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background: var(--surface);
+    box-shadow: 0 1rem 2.5rem rgb(23 33 27 / 0.06);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--muted) 12%, transparent);
+    padding: 0.35rem 0.65rem;
+    color: var(--text);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    gap: 0.4rem;
+  }
+
+  .badge-development { background: color-mix(in srgb, var(--accent-development) 16%, transparent); color: var(--accent-development); }
+  .badge-automation { background: color-mix(in srgb, var(--accent-automation) 16%, transparent); color: var(--accent-automation); }
+  .badge-data { background: color-mix(in srgb, var(--accent-data) 16%, transparent); color: var(--accent-data); }
+
+  .theme-toggle {
+    display: inline-grid;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    place-items: center;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text);
+    transition: background-color 180ms ease, border-color 180ms ease;
+  }
+
+  .theme-toggle:hover { background: var(--surface); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+}
+
+@media (min-width: 640px) {
+  .page-container,
+  .section-shell {
+    width: min(100% - 3rem, 72rem);
+  }
+}

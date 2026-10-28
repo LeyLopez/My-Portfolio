@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "education": "Education",
+    "contact": "Contact",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme",
+    "language": "Change language"
+  },
+  "home": {
+    "eyebrow": "Portfolio / 2026",
+    "heroDescription": "Systems Engineer connecting software development, process automation, and data analysis.",
+    "explore": "Explore work",
+    "contactCta": "Get in touch",
+    "areasEyebrow": "Areas of work",
+    "areasTitle": "Three areas, one way of working",
+    "aboutEyebrow": "About me",
+    "aboutTitle": "Solutions people use and teams can measure",
+    "hobbiesEyebrow": "Beyond code",
+    "hobbiesTitle": "Interests that keep my curiosity active",
+    "educationEyebrow": "Education",
+    "educationTitle": "Continuous learning with a technical foundation",
+    "inProgress": "In progress",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Want to discuss a project or opportunity?",
+    "email": "Email me",
+    "linkedin": "View LinkedIn"
+  },
+  "areas": {
+    "skillsEyebrow": "Skills",
+    "skillsTitle": "Tools and practices",
+    "projectsEyebrow": "Projects and cases",
+    "projectsTitle": "Selected work",
+    "emptyProjects": "There are no published projects in this area yet.",
+    "development": { "label": "Development", "description": "Full-stack applications, REST APIs, authentication, and deployment." },
+    "automation": { "label": "Automation", "description": "Workflows, integrations, CRM, and operational task automation." },
+    "data": { "label": "Data", "description": "Dashboards, KPIs, exploratory analysis, and machine learning." }
+  },
+  "projects": {
+    "status": { "done": "Completed", "inProgress": "In progress", "planned": "Planned" },
+    "links": { "repo": "Repository", "demo": "Demo", "docs": "Documentation" },
+    "notFound": "Project not found",
+    "detail": { "highlights": "What I did", "stack": "Stack", "role": "Role", "links": "Project links" }
+  },
+  "common": {
+    "portfolio": "Portfolio",
+    "loading": "Loading...",
+    "openExternal": "Opens in a new tab",
+    "backHome": "Back home",
+    "notFound": "Page not found"
+  }
+}

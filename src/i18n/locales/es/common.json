@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "education": "Formación",
+    "contact": "Contacto",
+    "themeLight": "Cambiar a tema claro",
+    "themeDark": "Cambiar a tema oscuro",
+    "language": "Cambiar idioma"
+  },
+  "home": {
+    "eyebrow": "Portfolio / 2026",
+    "heroDescription": "Ingeniera de Sistemas que conecta desarrollo de software, automatización de procesos y análisis de datos.",
+    "explore": "Explorar trabajo",
+    "contactCta": "Contactar",
+    "areasEyebrow": "Áreas de trabajo",
+    "areasTitle": "Tres áreas, una forma de trabajar",
+    "aboutEyebrow": "Sobre mí",
+    "aboutTitle": "Soluciones que se usan y se miden",
+    "hobbiesEyebrow": "Fuera del código",
+    "hobbiesTitle": "Intereses que alimentan mi curiosidad",
+    "educationEyebrow": "Formación",
+    "educationTitle": "Aprendizaje continuo con base técnica",
+    "inProgress": "En curso",
+    "contactEyebrow": "Contacto",
+    "contactTitle": "¿Quieres conversar sobre un proyecto o una oportunidad?",
+    "email": "Escribir por correo",
+    "linkedin": "Ver LinkedIn"
+  },
+  "areas": {
+    "skillsEyebrow": "Competencias",
+    "skillsTitle": "Herramientas y prácticas",
+    "projectsEyebrow": "Proyectos y casos",
+    "projectsTitle": "Trabajo seleccionado",
+    "emptyProjects": "Aún no hay proyectos publicados en esta área.",
+    "development": { "label": "Desarrollo", "description": "Aplicaciones full stack, APIs REST, autenticación y despliegue." },
+    "automation": { "label": "Automatización", "description": "Flujos, integraciones, CRM y automatización de tareas operativas." },
+    "data": { "label": "Datos", "description": "Dashboards, KPIs, análisis exploratorio y machine learning." }
+  },
+  "projects": {
+    "status": { "done": "Completado", "inProgress": "En curso", "planned": "Planeado" },
+    "links": { "repo": "Repositorio", "demo": "Demo", "docs": "Documentación" },
+    "notFound": "Proyecto no encontrado",
+    "detail": { "highlights": "Qué hice", "stack": "Stack", "role": "Rol", "links": "Enlaces del proyecto" }
+  },
+  "common": {
+    "portfolio": "Portfolio",
+    "loading": "Cargando...",
+    "openExternal": "Abre en una nueva pestaña",
+    "backHome": "Volver al inicio",
+    "notFound": "Página no encontrada"
+  }
+}
